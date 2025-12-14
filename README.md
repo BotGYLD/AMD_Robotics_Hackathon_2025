@@ -4,7 +4,8 @@
 
 ## Team Information
 
-**Team:** *Team 17, Bot GYLD, and Guillaume BONIFAS, Yvic PINEAU, Lionel AKRE, Damien FRECHOU*
+**Team:** *Team 17, Bot GYLD*
+Guillaume BONIFAS, Yvic PINEAU, Lionel AKRE, Damien FRECHOU
 
 **Summary:** *Task manipulation with conic objects*
 
@@ -70,8 +71,11 @@ We used the ACT foundation model with different configurations, e.g., 64 batches
     AMD_Robotics_Hackaton_2025_BotGYLD_2025-12-14_115400_HF_Episode39
     https://drive.google.com/file/d/1jLvMwO7mFtS2uPxQWBcdATM39zq1XQU2/view?usp=drive_link 
 
+- Google Doc Link
+  https://docs.google.com/document/d/15y0cBBkBScYKLkJ80m20bMdQ8k-Ns2PPtrgATrLaJTM/edit?tab=t.0
+  
 
-** Our team Bot GYLD **
+**Our team Bot GYLD**
 Guillaume Bonifas  - https://www.linkedin.com/in/guillaumebonifas/ 
 Yvic Pineau - https://www.linkedin.com/in/yvicpineau/ 
 Lionel Akré - https://www.linkedin.com/in/lionel-akre-87674836/ 
