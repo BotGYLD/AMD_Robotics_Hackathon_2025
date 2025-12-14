@@ -4,40 +4,79 @@
 
 ## Team Information
 
-**Team:** *Your team number, name of your team, and members*
+**Team:** *Team 17, Bot GYLD, and Guillaume BONIFAS, Yvic PINEAU, Lionel AKRE, Damien FRECHOU*
 
-**Summary:** *A brief description of your work*
+**Summary:** *Task manipulation with conic objects*
 
 *< Images or video demonstrating your project >*
 
 ## Submission Details
 
 ### 1. Mission Description
-- *Real world application of your mission*
+
+**Objective** : Our robot has to pick a serie of 2 (green and red) large cones and place each one on the smallest one with the same color. 
+
+**Real world application** : This scenario is used in the rehabilitation of patients who receive a bionic hand: it is therefore a **useful use case for training a humanoid** robot to perform this type of movement. 
 
 ### 2. Creativity
-- *What is novel or unique in your approach?*
-- *Innovation in design, methodology, or application*
+- Our approach 
+**Like a young child** plays with “russian dolls” - and train himself, our small robot needs to **gradually go through stages as a basis**, before gaining more independence.
+  
+- Innovation, difficulty 
+The cones are :
+1) Made of hard, **slippery plastic and conic shape**, which doesn't make the task any easier!
+2) Must **fit together precisely with little margin for error, even though the arm is short!**
+3) in different colors and positions, and the robot **can't make a potentially vital mistake!**
 
 ### 3. Technical implementations
-- *Teleoperation / Dataset capture*
-    - *<Image/video of teleoperation or dataset capture>*
-- *Training*
-- *Inference*
-    - *<Image/video of inference eval>*
+- We produced a series of imitation learning experiments by placing the cones in different locations, sometimes with little space to pass between two cones : First with 6 cones, then the ambition was reduced to 4 cones as a first phase, just what was necessary.
+- https://drive.google.com/file/d/10u0GT6jUsNpfH0MbuVbu4HLHHCnYA5mR/view?usp=drive_link 
+
+- Training
+We used the ACT foundation model with different configurations, e.g., 64 batches - 10,000 epochs - 0.1 dropout - 60 seconds per episode.
+
+- Inference
+    - A series of tests were launched with different datasets/training models: the last one yielded the best result with a complete sequence in episode 39 out of 40. 
+    - https://drive.google.com/file/d/1zgeC48xGRWiNvaGY7yH1LZTVELtEjvJF/view?usp=drive_link 
+
 
 ### 4. Ease of use
-- *How generalizable is your implementation across tasks or environments?*
-- *Flexibility and adaptability of the solution*
-- *Types of commands or interfaces needed to control the robot*
+- How generalizable is your implementation across tasks or environments?
+- Flexibility and adaptability of the solution 
+    - This scenario is applicable in many use cases, both in industry pick and place operations, and in humanoid personal services. 
+- Types of commands or interfaces needed to control the robot
+    - The griper requires sufficient hold : when the cone falls, a process will    need to be added to remove the parts that have fallen. 
+
 
 ## Additional Links
-*For example, you can provide links to:*
 
-- *Link to a video of your robot performing the task*
-- *URL of your dataset in Hugging Face*
-- *URL of your model in Hugging Face*
-- *Link to a blog post describing your work*
+
+**DATASET Hugging Face**
+
+- Url our dataset 
+    https://huggingface.co/datasets/botgyld/record-test-1
+
+- Url model used  
+    https://huggingface.co/botgyld/so101_act_record-test-1-2
+
+
+**BEST performing task**
+
+- Video overview - Episode 39  
+    AMD_Robotics_Hackaton_2025_BotGYLD_BestPerformingTask_Video39 
+    https://drive.google.com/file/d/1zgeC48xGRWiNvaGY7yH1LZTVELtEjvJF/view?usp=drive_link 
+
+- Hugging Face - Episode 39 
+    AMD_Robotics_Hackaton_2025_BotGYLD_2025-12-14_115400_HF_Episode39
+    https://drive.google.com/file/d/1jLvMwO7mFtS2uPxQWBcdATM39zq1XQU2/view?usp=drive_link 
+
+
+** Our team Bot GYLD **
+Guillaume Bonifas  - https://www.linkedin.com/in/guillaumebonifas/ 
+Yvic Pineau - https://www.linkedin.com/in/yvicpineau/ 
+Lionel Akré - https://www.linkedin.com/in/lionel-akre-87674836/ 
+Damien Frechou - https://www.linkedin.com/in/damien-frechou/ 
+
 
 ## Code submission
 
