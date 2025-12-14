@@ -15,7 +15,7 @@ Guillaume BONIFAS, Yvic PINEAU, Lionel AKRE, Damien FRECHOU
 **In progress**
 <img width="1030" height="409" alt="Capture d&#39;écran 2025-12-14 145546" src="https://github.com/user-attachments/assets/0c9c08c8-afc7-44ac-966d-f478f82d1ac6" />
 
-**At the end**
+**At the end**   
 <img width="925" height="352" alt="Capture d&#39;écran 2025-12-14 145656" src="https://github.com/user-attachments/assets/abe3bcfb-6b81-4b4f-84e2-0a80a1c2ac37" />
 
 
@@ -88,10 +88,10 @@ We used the ACT foundation model with different configurations, e.g., 64 batches
   
 
 **Our team Bot GYLD**
-Guillaume Bonifas  - https://www.linkedin.com/in/guillaumebonifas/ 
-Yvic Pineau - https://www.linkedin.com/in/yvicpineau/ 
-Lionel Akré - https://www.linkedin.com/in/lionel-akre-87674836/ 
-Damien Frechou - https://www.linkedin.com/in/damien-frechou/ 
+Guillaume Bonifas  - https://www.linkedin.com/in/guillaumebonifas/   
+Yvic Pineau - https://www.linkedin.com/in/yvicpineau/   
+Lionel Akré - https://www.linkedin.com/in/lionel-akre-87674836/   
+Damien Frechou - https://www.linkedin.com/in/damien-frechou/   
 
 
 ## Code submission
