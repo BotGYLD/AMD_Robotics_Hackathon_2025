@@ -38,8 +38,11 @@ The cones are :
 3) in different colors and positions, and the robot **can't make a potentially vital mistake!**
 
 ### 3. Technical implementations
-- We produced a series of imitation learning experiments by placing the cones in different locations, sometimes with little space to pass between two cones : First with 6 cones, then the ambition was reduced to 4 cones as a first phase, just what was necessary.
-- https://drive.google.com/file/d/10u0GT6jUsNpfH0MbuVbu4HLHHCnYA5mR/view?usp=drive_link 
+- Teleoperation / Dataset capture
+  - We produced a series of imitation learning experiments by placing the cones in different locations, sometimes with little space to pass between two cones : First with 6 cones, then the ambition was reduced to 4 cones as a first phase, just what was necessary.
+  - https://drive.google.com/file/d/10u0GT6jUsNpfH0MbuVbu4HLHHCnYA5mR/view?usp=drive_link 
+
+<img width="477" height="606" alt="Capture d&#39;écran 2025-12-14 145819" src="https://github.com/user-attachments/assets/1ac5e0d6-d46e-4590-9849-412a64361516" />
 
 - Training
 We used the ACT foundation model with different configurations, e.g., 64 batches - 10,000 epochs - 0.1 dropout - 60 seconds per episode.
@@ -48,6 +51,7 @@ We used the ACT foundation model with different configurations, e.g., 64 batches
     - A series of tests were launched with different datasets/training models: the last one yielded the best result with a complete sequence in episode 39 out of 40. 
     - https://drive.google.com/file/d/1zgeC48xGRWiNvaGY7yH1LZTVELtEjvJF/view?usp=drive_link 
 
+<img width="477" height="684" alt="Capture d&#39;écran 2025-12-14 150005" src="https://github.com/user-attachments/assets/c25edb2d-1b31-443b-83a0-50742826735c" />
 
 ### 4. Ease of use
 - How generalizable is your implementation across tasks or environments?
