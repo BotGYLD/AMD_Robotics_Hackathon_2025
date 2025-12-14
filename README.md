@@ -9,7 +9,15 @@ Guillaume BONIFAS, Yvic PINEAU, Lionel AKRE, Damien FRECHOU
 
 **Summary:** *Task manipulation with conic objects*
 
-*< Images or video demonstrating your project >*
+**At the beginning**
+<img width="1039" height="410" alt="Capture d&#39;écran 2025-12-14 145417" src="https://github.com/user-attachments/assets/a379ae34-03f5-4d82-98b3-22cda614d3a9" />
+
+**In progress**
+<img width="1030" height="409" alt="Capture d&#39;écran 2025-12-14 145546" src="https://github.com/user-attachments/assets/0c9c08c8-afc7-44ac-966d-f478f82d1ac6" />
+
+**At the end**
+<img width="925" height="352" alt="Capture d&#39;écran 2025-12-14 145656" src="https://github.com/user-attachments/assets/abe3bcfb-6b81-4b4f-84e2-0a80a1c2ac37" />
+
 
 ## Submission Details
 
